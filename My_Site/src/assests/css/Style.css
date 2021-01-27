@@ -1,0 +1,1430 @@
+
+/*======================Header=====================*/
+
+header {
+    height: 65px;
+    background: white;
+    box-shadow: 1px 2px 7px 4px #bfa0a0d6;
+    position: relative;
+}
+
+header > img {
+    padding: 9px;
+    width: 91px;
+    margin: -5px;
+}
+
+header > ul {
+    position: absolute;
+    right: 3px;
+    font-size: 17px;
+    top: -11px;
+    list-style: none;
+}
+
+header > ul > li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    font-family: Quicksand ;
+    font-weight: bold;
+
+    color: #02B1DB;
+}
+
+header > ul > li > i {
+    color: black;
+    margin-right: 1px;
+}
+header > ul > li>a:link{
+    text-decoration: none;
+}
+
+header > ul > li>a:hover{
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+header > ul > li>a {
+    background-color: transparent;
+    color: #313131;
+}
+/*======================Front Banner=====================*/
+
+section.first{
+    height: 470px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.first>div.banner1>img{
+    transform: rotate(-180deg);
+    width: 850px;
+    height: 420px;
+    position: relative;
+    top: 24px;
+    left: 375px;
+}
+
+section.first>div.banner2{
+    position: absolute;
+    top: 59px;
+    left: 10px;
+}
+
+section.first>div.banner2>h3{
+    font-family: Quicksand ;
+    font-weight: bold;
+    font-size: 45px;
+    color: #02B1DB;
+
+}
+
+section.first>div.banner2>h3>span{
+    color: #313131;
+}
+
+section.first>div.banner2>h1{
+    font-family: ColorTube;
+    font-size: 55px;
+    color: #313131;
+
+}
+
+section.first>div.banner2>h1>span{
+    color: #02B1DB;
+}
+
+section.first>div.circleA{
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    position: absolute;
+    top: 109px;
+    right: 88px;
+    border: 10px solid #077EB3;
+}
+
+section.first>div.circleA>img{
+    width: 214px;
+    height: 214px;
+    position: absolute;
+    top: -16px;
+    left: 2px;
+    bottom: 0;
+    right: 0;
+
+}
+
+section.first>div.circle1A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 120px;
+    top: 112px;
+
+}
+
+section.first>div.circle1A>img{
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+    animation: wheel1 2s linear infinite;
+}
+
+@keyframes wheel1 {
+        0%{
+            transform: rotate(0deg);
+        }
+
+        100%{
+            transform: rotate(360deg);
+        }
+}
+
+section.first>div.Circle2A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 120px;
+    top: 302px;
+
+}
+
+section.first>div.Circle2A>img{
+    width: 66px;
+    height: 47px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    right: 0px;
+    bottom: 0px;
+    margin: 4px;
+    animation: wheel2 2s linear infinite;
+}
+
+@keyframes wheel2 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+section.first>div.Circle3A{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background: #313131;
+    position: absolute;
+    right: 305px;
+    top: 215px;
+
+}
+
+section.first>div.Circle3A>img{
+    width: 120px;
+    height: 85px;
+    position: absolute;
+    bottom: -17px;
+    left: -33px;
+    animation: wheel3 2s linear infinite;
+}
+
+@keyframes wheel3 {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/*======================About Me=====================*/
+
+section.second{
+    height: 694px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.second>div.aboutme>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 493px;
+    position: absolute;
+}
+
+section.second>div.aboutme>h2>span{
+    color: #313131;
+}
+
+section.second>div.frames>img.framea{
+    width: 492px;
+    height: 538px;
+    top: 82px;
+    left: 50px;
+    position: absolute;
+}
+
+section.second>div.frames>img.frameb{
+    width: 300px;
+    height: 510px;
+    top: 48px;
+    left: 181px;
+    position: absolute;
+}
+
+section.second>div.frames>img.framec{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 298px;
+    opacity: 78%;
+}
+
+section.second>div.desc>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: #02B1DB;
+    top: 142px;
+    left: 672px;
+    position: absolute;
+}
+
+section.second>div.desc>p>span{
+    color: #313131;
+}
+
+section.second>div.desc>p:nth-child(2){
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 256px;
+    left: 673px;
+    position: absolute;
+}
+
+section.second>div.icona>a.location>img.loc{
+    width: 56px;
+    height: 55px;
+    position: absolute;
+    top: 449px;
+    right: 505px;
+}
+
+section.second>div.icona>a.location>p.pl{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 453px;
+    left: 726px;
+    position: absolute;
+}
+
+section.second>div.icona>img.loc1{
+    width: 65px;
+    height: 70px;
+    position: absolute;
+    top: 451px;
+    right: 176px;
+}
+
+section.second>div.icona>p.myold{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 456px;
+    left: 1062px;
+    position: absolute;
+}
+
+section.second>div.icona>img.loc2{
+    width: 81px;
+    height: 47px;
+    position: absolute;
+    top: 530px;
+    right: 634px;
+}
+
+section.second>div.icona>p.mynum{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 525px;
+    left: 587px;
+    position: absolute;
+}
+
+section.second>div.icona>a.mymail1>img.loc3{
+    width: 81px;
+    height: 82px;
+    position: absolute;
+    top: 514px;
+    right: 334px;
+}
+
+section.second>div.icona>a.mymail1>p.mymail{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 20px;
+    color: #313131;
+    top: 523px;
+    left: 882px;
+    position: absolute;
+}
+
+section.second>div.btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+section.second>div.btn1>button.btn-1{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #02B1DB;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #313131;
+    transition: ease-out 0.3s;
+    font-size: 19px;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 611px;
+    left: 1025px;
+}
+
+section.second>div.btn1>button.btn-1:hover{
+    box-shadow: inset 150px 0 0 0 #313131;
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+/*====================== My Services =====================*/
+
+section.third{
+    height: 466px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.third>div.frame2>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 336px;
+    top: 298px;
+    opacity: 78%;
+
+}
+
+section.third>div.aboutme2>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 487px;
+    position: absolute;
+}
+
+section.third>div.aboutme2>h2>span{
+    color: #313131;
+}
+
+section.third>div.simages>img.fst{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 50px;
+    background-color: #aaaaaa;
+
+}
+
+section.third>div.simages2>img.fst2{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 471px;
+    background-color: rgba(255, 0, 0, 0.4);
+
+}
+
+section.third>div.simages3>img.fst3{
+    width: 257px;
+    height: 178px;
+    border-radius: 20px;
+    position: absolute;
+    top: 157px;
+    left: 893px;
+    background-color: rgba(255, 0, 0, 0.4);
+
+}
+
+/*====================== My Skills =====================*/
+
+section.fourth{
+    height: 466px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.fourth>div.frame3>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 320px;
+    opacity: 78%;
+}
+
+section.fourth>div.aboutme3>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 487px;
+    position: absolute;
+}
+
+section.fourth>div.aboutme3>h2>span{
+    color: #313131;
+}
+
+/*====================== Projects =====================*/
+
+section.fifth{
+    height: 630px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.fifth>div.frame4>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg) scaleY(-1);
+    position: absolute;
+    right: 336px;
+    top: 298px;
+    opacity: 78%;
+
+}
+
+section.fifth>div.aboutme4>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 487px;
+    position: absolute;
+}
+
+section.fifth>div.aboutme4>h2>span{
+    color: #313131;
+}
+
+section.fifth>div.pro1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #4AD883;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    left: 117px;
+    top:  150px;
+}
+
+section.fifth>div.pro2{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #6241A0;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 150px;
+    left: 474px;
+}
+
+section.fifth>div.pro3{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #111112;
+    opacity: 80%;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 150px;
+    left: 840px;
+}
+
+section.fifth>div.pro1-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #4AD883;
+    transform: rotate(-46deg);
+    position: absolute;
+    left: 159px;
+    top: 138px;
+}
+
+section.fifth>div.pro2-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #6241A0;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 139px;
+    left: 514px
+}
+
+section.fifth>div.pro3-1{
+    width: 227px;
+    height: 217px;
+    border-radius: 20%;
+    background-color: #111112;
+    transform: rotate(-46deg);
+    position: absolute;
+    top: 139px;
+    left: 884px;
+}
+
+section.fifth>div.pro1-1>img{
+    width: 244px;
+    height: 68px;
+    transform: rotate(46deg);
+    position: absolute;
+    align-items: center;
+    margin: -1px;
+    top: 71px;
+}
+
+section.fifth>div.pro2-1>img{
+    width: 202px;
+    height: 201px;
+    transform: rotate(27deg);
+    border-radius: 100%;
+    position: absolute;
+    align-items: center;
+    margin: 9px;
+    top: 1px;
+    left: 4px;
+}
+
+section.fifth>div.pro3-1>img{
+    width: 206px;
+    height: 208px;
+    transform: rotate(46deg);
+    position: absolute;
+    top: -12px;
+    margin: -2px;
+    left: 33px;
+}
+
+/*====================== Assignments =====================*/
+
+section.sixth{
+    height: 530px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.sixth>div.frame5>img{
+    width: 1186px;
+    height: 590px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -298px;
+    top: 320px;
+    opacity: 78%;
+}
+
+section.sixth>div.aboutme5>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 462px;
+    position: absolute;
+}
+
+section.sixth>div.aboutme5>h2>span{
+    color: #313131;
+}
+
+section.sixth>div.ass1>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 50px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass1>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.sixth>div.ass2>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 436px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass2>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.sixth>div.ass3>img{
+    width: 342px;
+    height: 160px;
+    position: absolute;
+    top: 179px;
+    left: 827px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.sixth>div.ass3>img:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+/*====================== Education =====================*/
+
+section.seventh{
+    height: 1266px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.seventh>div.aboutme6>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 338px;
+    position: absolute;
+}
+
+section.seventh>div.aboutme6>h2>span{
+    color: #313131;
+}
+
+section.seventh>div.line1{
+    border-left: 9px solid gray;
+    height: 700px;
+    position: absolute;
+    top: 243px;
+    left: 598px;
+}
+
+section.seventh>div.sec1{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 21px;
+    top: 100px;
+}
+
+section.seventh>div.sec2{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 21px;
+    top: 470px;
+}
+
+section.seventh>div.sec3{
+    height: 370px;
+    width: 1180px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 21px;
+    top: 840px;
+}
+
+
+section.seventh>div.sec1>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec1>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec1>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: hotpink;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec1>div.prime2>img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+
+
+section.seventh>div.sec1>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec1>div.prime3>img{
+    width: 166px;
+    height: 249px;
+    position: absolute;
+    left: 100px;
+}
+
+
+section.seventh>div.sec2>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+    box-shadow: -7px -7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec2>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec2>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: blueviolet;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec2>div.prime2>img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+section.seventh>div.sec2>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec2>div.prime3>img{
+    width: 240px;
+    height: 141px;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+section.seventh>div.sec3>div.prime1{
+    width: 373px;
+    height: 262px;
+    background: #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 735px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px 7px lightslategray;
+}
+
+section.seventh>div.sec3>div.prime1>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.seventh>div.sec3>div.prime2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background: mediumspringgreen;
+    top: 50px;
+    left: 531px;
+}
+
+section.seventh>div.sec3>div.prime2>img{
+    width: 80px;
+    height: 58px;
+    position: absolute;
+    top: 23px;
+    left: 13px;
+}
+
+section.seventh>div.sec3>div.prime3{
+    width: 373px;
+    height: 262px;
+    border: 5px solid #6B6E71;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 20px;
+}
+
+section.seventh>div.sec3>div.prime3>img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 28px;
+    left: 77px;
+}
+
+section.seventh>div.sec1{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec1{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.seventh>div.sec2{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec2{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.seventh>div.sec3{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.seventh:hover>div.sec3{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/*====================== Interests =====================*/
+
+section.eighth{
+    height: 666px;
+    border: 1px solid #02B1DB;
+    position: relative;
+}
+
+section.eighth>div.aboutme7>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 487px;
+    position: absolute;
+}
+
+section.eighth>div.aboutme7>h2>span{
+    color: #313131;
+}
+
+section.eighth>div.hoby1>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 150px;
+    left: 173px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby2>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 150px;
+    left: 714px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby3>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 412px;
+    left: 173px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby4>img{
+    width: 303px;
+    height: 171px;
+    position: absolute;
+    top: 412px;
+    left: 714px;
+    border-radius: 30px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+section.eighth>div.hoby1>div.cam>img.cam1{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 177px;
+    left: 277px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1>div.cam>p.cam11{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 257px;
+    left: 251px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1>div.cam{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby1:hover>div.cam{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+section.eighth>div.hoby2>div.trav>img.travel{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    top: 169px;
+    left: 815px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2>div.trav>p.travel1{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 261px;
+    left: 806px;
+    color: black;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2>div.trav{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby2:hover>div.trav{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div>img{
+    width: 103px;
+    height: 103px;
+    position: absolute;
+    top: 429px;
+    left: 268px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 519px;
+    left: 271px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3>div.read{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby3:hover>div.read{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div>img{
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    top: 428px;
+    left: 813px;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div>p{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 517px;
+    left: 816px;
+    color: white;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4>div.Gamin{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section.eighth>div.hoby4:hover>div.Gamin{
+    transform: translateY(0px);
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/*====================== Feedback =====================*/
+
+section.ninth{
+    height: 666px;
+    border: 1px solid transparent;
+    position: relative;
+}
+
+section.ninth>div.aboutme8>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #02B1DB;
+    top: -34px;
+    left: 403px;
+    position: absolute;
+}
+
+section.ninth>div.aboutme8>h2>span{
+    color: #313131;
+}
+
+section.ninth>div.tbox>p>input[type="text"]{
+    border: 3px solid #aaa;
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    outline: none;
+    position: absolute;
+    top: 166px;
+    left: 436px;
+    text-align: center;
+}
+
+section.ninth>div.tbox>p>input[type="text"]::placeholder{
+    text-align: center;
+    font-family: Quicksand;
+}
+
+section.ninth>div.tarea>p>textarea{
+    width: 550px;
+    height: 250px;
+    border: 3px solid #aaa;
+    border-radius: 30px;
+    outline: none;
+    position: absolute;
+    top: 279px;
+    left: 365px;
+    text-align: center;
+}
+
+section.ninth>div.tarea>p>textarea::placeholder{
+    text-align: center;
+    font-family: Quicksand;
+}
+
+
+section.ninth>div.btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+section.ninth>div.btn2>button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #02B1DB;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 #313131;
+    transition: ease-out 0.3s;
+    font-size: 19px;
+    font-family: Quicksand;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    top: 574px;
+    left: 769px;
+}
+
+section.ninth>div.btn2>button:hover{
+    box-shadow: inset 150px 0 0 0 #313131;
+    cursor: pointer;
+    color: #02B1DB;
+}
+
+/*====================== Footer =====================*/
+
+section.ten>div.column1{
+    height: 400px;
+    background-color: #01E2F3;
+    position: relative;
+    border-radius:50% 50% 0px 0px;
+
+}
+
+section.ten>div.column1>h2{
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 50px;
+    color: #313131;
+    top: 16px;
+    left: 472px;
+    position: absolute;
+}
+
+section.ten>div.column1>div.column2>img{
+    width: 130px;
+    position: absolute;
+    top: 150px;
+    left: 552px;
+}
+
+section.ten>div.column1>div.column3>img.social1{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    top: 280px;
+    left: 284px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+
+}
+
+section.ten>div.column1>div.column3>img.social1:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 268px;
+    left: 384px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social2:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social3{
+    width: 75px;
+    height: 56px;
+    position: absolute;
+    top: 280px;
+    left: 488px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social3:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social4{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social4:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social5{
+    width: 111px;
+    height: 67px;
+    position: absolute;
+    top: 273px;
+    left: 696px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social5:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social6{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 271px;
+    left: 830px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social6:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+section.ten>div.column1>div.column3>img.social7{
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 275px;
+    left: 939px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: filter 600ms ease;
+    -webkit-transition: -webkit-filter 600ms ease;
+    cursor: pointer;
+}
+
+section.ten>div.column1>div.column3>img.social7:hover{
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+}
+
+
+section.ten>div.column1>div.column4{
+    font-size: 16px;
+    font-family: Quicksand;
+    position: absolute;
+    top: 353px;
+    left: 421px;
+    font-weight: bold;
+    color: #777777;
+}
